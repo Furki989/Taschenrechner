@@ -1,0 +1,59 @@
+
+body{
+    display: flex;
+    height: 100%;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+
+.zentru{
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 48vh;
+    background-color: red;
+    
+}
+ 
+
+.main{
+    display: grid;
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    grid-template-columns: repeat(4, 1fr);
+    border-radius: 20px;
+
+}
+
+.box{
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif; 
+    font-size: 20;
+    
+}
+
+.box:hover{
+    background-color: lightblue;
+}
+
+.display{
+
+    padding-right: 225px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
